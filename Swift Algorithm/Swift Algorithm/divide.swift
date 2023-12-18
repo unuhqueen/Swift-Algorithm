@@ -1,0 +1,13 @@
+//
+//  main.swift
+//  Swift Algorithm
+//
+//  Created by Seungwon Choi on 2023/12/18.
+//
+
+import Foundation
+
+let inputs = readLine()!.components(separatedBy: " ")
+let input1 = Double(inputs[0])!
+let input2 = Double(inputs[1])!
+print(input1 / input2)
