@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3DF100142B300D43008FEBBB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF100132B300D43008FEBBB /* main.swift */; };
+		3DF100162B300F8E008FEBBB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF100152B300F8E008FEBBB /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,7 +27,8 @@
 		3DF100052B300A0F008FEBBB /* helloWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helloWorld.swift; sourceTree = "<group>"; };
 		3DF1000F2B300AD4008FEBBB /* add.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = add.swift; sourceTree = "<group>"; };
 		3DF100112B300C68008FEBBB /* subtract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subtract.swift; sourceTree = "<group>"; };
-		3DF100132B300D43008FEBBB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		3DF100132B300D43008FEBBB /* multiply.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = multiply.swift; sourceTree = "<group>"; };
+		3DF100152B300F8E008FEBBB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +56,8 @@
 				3DF100052B300A0F008FEBBB /* helloWorld.swift */,
 				3DF1000F2B300AD4008FEBBB /* add.swift */,
 				3DF100112B300C68008FEBBB /* subtract.swift */,
-				3DF100132B300D43008FEBBB /* main.swift */,
+				3DF100132B300D43008FEBBB /* multiply.swift */,
+				3DF100152B300F8E008FEBBB /* main.swift */,
 			);
 			path = "Swift Algorithm";
 			sourceTree = "<group>";
@@ -127,7 +129,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DF100142B300D43008FEBBB /* main.swift in Sources */,
+				3DF100162B300F8E008FEBBB /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
