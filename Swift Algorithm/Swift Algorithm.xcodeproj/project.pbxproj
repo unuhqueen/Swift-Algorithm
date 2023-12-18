@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3DF1000E2B300A48008FEBBB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF100052B300A0F008FEBBB /* main.swift */; };
+		3DF100142B300D43008FEBBB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF100132B300D43008FEBBB /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,10 @@
 
 /* Begin PBXFileReference section */
 		3DF100022B300A0F008FEBBB /* Swift Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Swift Algorithm"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3DF100052B300A0F008FEBBB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		3DF100052B300A0F008FEBBB /* helloWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helloWorld.swift; sourceTree = "<group>"; };
+		3DF1000F2B300AD4008FEBBB /* add.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = add.swift; sourceTree = "<group>"; };
+		3DF100112B300C68008FEBBB /* subtract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subtract.swift; sourceTree = "<group>"; };
+		3DF100132B300D43008FEBBB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +52,10 @@
 		3DF100042B300A0F008FEBBB /* Swift Algorithm */ = {
 			isa = PBXGroup;
 			children = (
-				3DF100052B300A0F008FEBBB /* main.swift */,
+				3DF100052B300A0F008FEBBB /* helloWorld.swift */,
+				3DF1000F2B300AD4008FEBBB /* add.swift */,
+				3DF100112B300C68008FEBBB /* subtract.swift */,
+				3DF100132B300D43008FEBBB /* main.swift */,
 			);
 			path = "Swift Algorithm";
 			sourceTree = "<group>";
@@ -94,6 +100,7 @@
 				TargetAttributes = {
 					3DF100012B300A0F008FEBBB = {
 						CreatedOnToolsVersion = 15.0.1;
+						LastSwiftMigration = 1500;
 					};
 				};
 			};
@@ -120,7 +127,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DF1000E2B300A48008FEBBB /* main.swift in Sources */,
+				3DF100142B300D43008FEBBB /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,10 +255,12 @@
 		3DF1000A2B300A0F008FEBBB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XYP4CK6HFK;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -259,6 +268,7 @@
 		3DF1000B2B300A0F008FEBBB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XYP4CK6HFK;
 				ENABLE_HARDENED_RUNTIME = YES;
