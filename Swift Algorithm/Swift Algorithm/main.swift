@@ -2,7 +2,7 @@
 //  main.swift
 //  Swift Algorithm
 //
-//  Created by Seungwon Choi on 2023/12/28.
+//  Created by Seungwon Choi on 2024/01/06.
 //
 
 import Foundation
