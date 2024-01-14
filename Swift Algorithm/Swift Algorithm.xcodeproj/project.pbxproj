@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3D6595512B54133300C1F751 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6595502B54133300C1F751 /* main.swift */; };
+		3D6595532B54196900C1F751 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6595522B54196900C1F751 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,7 +29,8 @@
 		3D65954A2B540E7400C1F751 /* leapYear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = leapYear.swift; sourceTree = "<group>"; };
 		3D65954C2B540FDF00C1F751 /* quadrant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quadrant.swift; sourceTree = "<group>"; };
 		3D65954E2B5410E700C1F751 /* alarmClock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alarmClock.swift; sourceTree = "<group>"; };
-		3D6595502B54133300C1F751 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		3D6595502B54133300C1F751 /* ovenClock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ovenClock.swift; sourceTree = "<group>"; };
+		3D6595522B54196900C1F751 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		3D8F6D0A2B493F22008719C4 /* kkomaJeongmin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kkomaJeongmin.swift; sourceTree = "<group>"; };
 		3D8F6D0C2B494009008719C4 /* cat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cat.swift; sourceTree = "<group>"; };
 		3D8F6D0E2B49421D008719C4 /* dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dog.swift; sourceTree = "<group>"; };
@@ -85,7 +86,8 @@
 				3D65954A2B540E7400C1F751 /* leapYear.swift */,
 				3D65954C2B540FDF00C1F751 /* quadrant.swift */,
 				3D65954E2B5410E700C1F751 /* alarmClock.swift */,
-				3D6595502B54133300C1F751 /* main.swift */,
+				3D6595502B54133300C1F751 /* ovenClock.swift */,
+				3D6595522B54196900C1F751 /* main.swift */,
 			);
 			path = "Swift Algorithm";
 			sourceTree = "<group>";
@@ -157,7 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D6595512B54133300C1F751 /* main.swift in Sources */,
+				3D6595532B54196900C1F751 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
