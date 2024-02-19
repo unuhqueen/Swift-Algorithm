@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3D9B5F512B83D8C700AC788D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9B5F502B83D8C700AC788D /* main.swift */; };
+		3D9B5F532B83DC5C00AC788D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9B5F522B83DC5C00AC788D /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -54,7 +54,8 @@
 		3D9B5F4A2B83CD6F00AC788D /* max.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = max.swift; sourceTree = "<group>"; };
 		3D9B5F4C2B83CF5000AC788D /* putInBall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = putInBall.swift; sourceTree = "<group>"; };
 		3D9B5F4E2B83D56100AC788D /* swapBall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swapBall.swift; sourceTree = "<group>"; };
-		3D9B5F502B83D8C700AC788D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		3D9B5F502B83D8C700AC788D /* submitAssignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = submitAssignment.swift; sourceTree = "<group>"; };
+		3D9B5F522B83DC5C00AC788D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		3D9F883A2B32A3B5008B162D /* ??!.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "??!.swift"; sourceTree = "<group>"; };
 		3DF100022B300A0F008FEBBB /* Swift Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Swift Algorithm"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DF100052B300A0F008FEBBB /* helloWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helloWorld.swift; sourceTree = "<group>"; };
@@ -125,7 +126,8 @@
 				3D9B5F4A2B83CD6F00AC788D /* max.swift */,
 				3D9B5F4C2B83CF5000AC788D /* putInBall.swift */,
 				3D9B5F4E2B83D56100AC788D /* swapBall.swift */,
-				3D9B5F502B83D8C700AC788D /* main.swift */,
+				3D9B5F502B83D8C700AC788D /* submitAssignment.swift */,
+				3D9B5F522B83DC5C00AC788D /* main.swift */,
 			);
 			path = "Swift Algorithm";
 			sourceTree = "<group>";
@@ -197,7 +199,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D9B5F512B83D8C700AC788D /* main.swift in Sources */,
+				3D9B5F532B83DC5C00AC788D /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
