@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3DFE5F9F2B8CBB160055B9DC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFE5F9E2B8CBB160055B9DC /* main.swift */; };
+		3DFE5FA12B8CBBA20055B9DC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFE5FA02B8CBBA20055B9DC /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -67,7 +67,8 @@
 		3DF1001B2B302330008FEBBB /* arithmetic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arithmetic.swift; sourceTree = "<group>"; };
 		3DFE5F9A2B8CB5620055B9DC /* average.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = average.swift; sourceTree = "<group>"; };
 		3DFE5F9C2B8CB90E0055B9DC /* string.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = string.swift; sourceTree = "<group>"; };
-		3DFE5F9E2B8CBB160055B9DC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		3DFE5F9E2B8CBB160055B9DC /* countWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = countWord.swift; sourceTree = "<group>"; };
+		3DFE5FA02B8CBBA20055B9DC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,7 +136,8 @@
 				3D3020622B86F9760088EC55 /* swapBasket.swift */,
 				3DFE5F9A2B8CB5620055B9DC /* average.swift */,
 				3DFE5F9C2B8CB90E0055B9DC /* string.swift */,
-				3DFE5F9E2B8CBB160055B9DC /* main.swift */,
+				3DFE5F9E2B8CBB160055B9DC /* countWord.swift */,
+				3DFE5FA02B8CBBA20055B9DC /* main.swift */,
 			);
 			path = "Swift Algorithm";
 			sourceTree = "<group>";
@@ -207,7 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DFE5F9F2B8CBB160055B9DC /* main.swift in Sources */,
+				3DFE5FA12B8CBBA20055B9DC /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
