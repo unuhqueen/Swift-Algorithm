@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3D3020632B86F9760088EC55 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3020622B86F9760088EC55 /* main.swift */; };
+		3DFE5F9B2B8CB5620055B9DC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFE5F9A2B8CB5620055B9DC /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,7 +28,7 @@
 		3D1F8EA32B6FAC2B006B1271 /* countNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = countNumber.swift; sourceTree = "<group>"; };
 		3D1F8EA52B6FB0B3006B1271 /* smallerThanX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smallerThanX.swift; sourceTree = "<group>"; };
 		3D1F8EA72B6FB40E006B1271 /* minMax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = minMax.swift; sourceTree = "<group>"; };
-		3D3020622B86F9760088EC55 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		3D3020622B86F9760088EC55 /* swapBasket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swapBasket.swift; sourceTree = "<group>"; };
 		3D55F62E2B3D6AF50040C8A5 /* bulgi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bulgi.swift; sourceTree = "<group>"; };
 		3D55F6302B3D6CE40040C8A5 /* mod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mod.swift; sourceTree = "<group>"; };
 		3D55F6332B3D6F340040C8A5 /* multiplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = multiplication.swift; sourceTree = "<group>"; };
@@ -65,6 +65,7 @@
 		3DF100132B300D43008FEBBB /* multiply.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = multiply.swift; sourceTree = "<group>"; };
 		3DF100152B300F8E008FEBBB /* divide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = divide.swift; sourceTree = "<group>"; };
 		3DF1001B2B302330008FEBBB /* arithmetic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arithmetic.swift; sourceTree = "<group>"; };
+		3DFE5F9A2B8CB5620055B9DC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,7 +130,8 @@
 				3D9B5F4E2B83D56100AC788D /* swapBall.swift */,
 				3D9B5F502B83D8C700AC788D /* submitAssignment.swift */,
 				3D9B5F522B83DC5C00AC788D /* mod_2.swift */,
-				3D3020622B86F9760088EC55 /* main.swift */,
+				3D3020622B86F9760088EC55 /* swapBasket.swift */,
+				3DFE5F9A2B8CB5620055B9DC /* main.swift */,
 			);
 			path = "Swift Algorithm";
 			sourceTree = "<group>";
@@ -201,7 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D3020632B86F9760088EC55 /* main.swift in Sources */,
+				3DFE5F9B2B8CB5620055B9DC /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
