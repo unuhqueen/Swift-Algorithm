@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3D736CE62B961A7D00EC741C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D736CE52B961A7D00EC741C /* main.swift */; };
+		3D736CE82B96223200EC741C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D736CE72B96223200EC741C /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -44,7 +44,8 @@
 		3D6595522B54196900C1F751 /* threeDice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = threeDice.swift; sourceTree = "<group>"; };
 		3D736CE12B96156A00EC741C /* ascii.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ascii.swift; sourceTree = "<group>"; };
 		3D736CE32B9617E800EC741C /* sumOfNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sumOfNumbers.swift; sourceTree = "<group>"; };
-		3D736CE52B961A7D00EC741C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		3D736CE52B961A7D00EC741C /* findAlphabet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findAlphabet.swift; sourceTree = "<group>"; };
+		3D736CE72B96223200EC741C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		3D8DE9EC2B667298003CE190 /* aPlusB_7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aPlusB_7.swift; sourceTree = "<group>"; };
 		3D8DE9EE2B6675CD003CE190 /* aPlusB_8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aPlusB_8.swift; sourceTree = "<group>"; };
 		3D8DE9F02B667656003CE190 /* star_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = star_1.swift; sourceTree = "<group>"; };
@@ -143,7 +144,8 @@
 				3DFE5FA02B8CBBA20055B9DC /* string_2.swift */,
 				3D736CE12B96156A00EC741C /* ascii.swift */,
 				3D736CE32B9617E800EC741C /* sumOfNumbers.swift */,
-				3D736CE52B961A7D00EC741C /* main.swift */,
+				3D736CE52B961A7D00EC741C /* findAlphabet.swift */,
+				3D736CE72B96223200EC741C /* main.swift */,
 			);
 			path = "Swift Algorithm";
 			sourceTree = "<group>";
@@ -215,7 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D736CE62B961A7D00EC741C /* main.swift in Sources */,
+				3D736CE82B96223200EC741C /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
