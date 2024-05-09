@@ -48,7 +48,8 @@ func printLinkedList(_ head: Node?) {
     print(result)
 }
 
-func findMerge(headA: Node?, headB: Node?) -> Int? {
+/// Time: O(n^2)
+func findMergeBrute(headA: Node?, headB: Node?) -> Int? {
     var currentNodeA = headA!
     var currentNodeB = headB!
     
@@ -67,6 +68,61 @@ func findMerge(headA: Node?, headB: Node?) -> Int? {
     return nil
 }
 
+/// Time: O(n)
+func findMergeDic(headA: Node?, headB: Node?) -> Int? {
+    var currentNodeA = headA
+    var currentNodeB = headB
+    
+    var dictB = [Int:Bool]()
+    
+    let lengthB = length(headB)
+    
+    while currentNodeB?.next != nil {
+        dictB.updateValue(true, forKey: currentNodeB!.data)
+        currentNodeB = currentNodeB?.next
+    }
+    
+    while currentNodeA?.next != nil {
+        if dictB[currentNodeA!.data] == true {
+            return currentNodeA?.data
+        }
+        currentNodeA = currentNodeA?.next
+    }
+    
+    return nil
+}
+
+/// Time: O(n)
+func findMergeDistance(headA: Node?, headB: Node?) -> Int? {
+    var currentNodeA = headA
+    var currentNodeB = headB
+    
+    var lengthA = length(headA)
+    var lengthB = length(headB)
+    
+    if lengthB > lengthA {
+        let temp = currentNodeA
+        currentNodeA = currentNodeB
+        currentNodeB = temp
+    }
+    
+    let distance = abs(lengthA - lengthB)
+    
+    for _ in 0..<distance {
+        currentNodeA = currentNodeA?.next
+    }
+    
+    while currentNodeA?.next != nil {
+        if currentNodeA?.data == currentNodeB?.data {
+            return currentNodeA?.data
+        }
+        currentNodeA = currentNodeA?.next
+        currentNodeB = currentNodeB?.next
+    }
+    
+    return nil
+}
+
 // 1 2 3 4 5 6
 let node6 = Node(6)
 let node5 = Node(5, node6)
@@ -82,4 +138,4 @@ let node10 = Node(10, node11)
 printLinkedList(node1)
 printLinkedList(node10)
 
-print(findMerge(headA: node1, headB: node10))
+print(findMergeDistance(headA: node1, headB: node10))
