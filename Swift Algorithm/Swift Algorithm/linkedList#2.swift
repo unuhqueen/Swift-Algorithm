@@ -48,13 +48,13 @@ func printLinkedList(_ head: Node?) {
     print(result)
 }
 
-/// Time: O(n^2)
+/// Time: O(mn)
 func findMergeBrute(headA: Node?, headB: Node?) -> Int? {
     var currentNodeA = headA!
     var currentNodeB = headB!
     
-    while currentNodeA.next != nil {
-        while currentNodeB.next != nil {
+    while currentNodeA.next != nil { // O(m)
+        while currentNodeB.next != nil { // O(n)
             if currentNodeA.data == currentNodeB.data {
                 return currentNodeA.data
             } else {
@@ -68,21 +68,21 @@ func findMergeBrute(headA: Node?, headB: Node?) -> Int? {
     return nil
 }
 
-/// Time: O(n)
+/// Time: O(m+n)
 func findMergeDic(headA: Node?, headB: Node?) -> Int? {
     var currentNodeA = headA
     var currentNodeB = headB
     
     var dictB = [Int:Bool]()
     
-    let lengthB = length(headB)
+    let lengthB = length(headB) // O(n)
     
-    while currentNodeB?.next != nil {
+    while currentNodeB?.next != nil { // O(n)
         dictB.updateValue(true, forKey: currentNodeB!.data)
         currentNodeB = currentNodeB?.next
     }
     
-    while currentNodeA?.next != nil {
+    while currentNodeA?.next != nil { // O(m)
         if dictB[currentNodeA!.data] == true {
             return currentNodeA?.data
         }
@@ -92,13 +92,13 @@ func findMergeDic(headA: Node?, headB: Node?) -> Int? {
     return nil
 }
 
-/// Time: O(n)
+/// Time: O(m+n)
 func findMergeDistance(headA: Node?, headB: Node?) -> Int? {
     var currentNodeA = headA
     var currentNodeB = headB
     
-    var lengthA = length(headA)
-    var lengthB = length(headB)
+    var lengthA = length(headA) // O(m)
+    var lengthB = length(headB) // O(n)
     
     if lengthB > lengthA {
         let temp = currentNodeA
@@ -108,11 +108,11 @@ func findMergeDistance(headA: Node?, headB: Node?) -> Int? {
     
     let distance = abs(lengthA - lengthB)
     
-    for _ in 0..<distance {
+    for _ in 0..<distance { // O(n)
         currentNodeA = currentNodeA?.next
     }
     
-    while currentNodeA?.next != nil {
+    while currentNodeA?.next != nil { // O(m)
         if currentNodeA?.data == currentNodeB?.data {
             return currentNodeA?.data
         }
