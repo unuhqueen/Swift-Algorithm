@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3DF81A6D2C007F6E0027B20F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF81A6C2C007F6E0027B20F /* main.swift */; };
+		3DF49C532C10505900737030 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF49C522C10505900737030 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -79,7 +79,8 @@
 		3DF100132B300D43008FEBBB /* multiply.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = multiply.swift; sourceTree = "<group>"; };
 		3DF100152B300F8E008FEBBB /* divide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = divide.swift; sourceTree = "<group>"; };
 		3DF1001B2B302330008FEBBB /* arithmetic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arithmetic.swift; sourceTree = "<group>"; };
-		3DF81A6C2C007F6E0027B20F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		3DF49C522C10505900737030 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		3DF81A6C2C007F6E0027B20F /* stacksAndQueues#1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "stacksAndQueues#1.swift"; sourceTree = "<group>"; };
 		3DFE5F9A2B8CB5620055B9DC /* average.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = average.swift; sourceTree = "<group>"; };
 		3DFE5F9C2B8CB90E0055B9DC /* string.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = string.swift; sourceTree = "<group>"; };
 		3DFE5F9E2B8CBB160055B9DC /* countWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = countWord.swift; sourceTree = "<group>"; };
@@ -167,7 +168,8 @@
 				3DA882EE2BE0BEA9006F8F37 /* linkedList#2.swift */,
 				3D3C9C562BEDFB2F00E2A044 /* linkedList#3.swift */,
 				3D3C9C582BEDFFA900E2A044 /* stacksAndQueues.swift */,
-				3DF81A6C2C007F6E0027B20F /* main.swift */,
+				3DF81A6C2C007F6E0027B20F /* stacksAndQueues#1.swift */,
+				3DF49C522C10505900737030 /* main.swift */,
 			);
 			path = "Swift Algorithm";
 			sourceTree = "<group>";
@@ -239,7 +241,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DF81A6D2C007F6E0027B20F /* main.swift in Sources */,
+				3DF49C532C10505900737030 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
